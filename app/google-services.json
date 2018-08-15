@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "766954487055",
+    "firebase_url": "https://locationofflinedemo.firebaseio.com",
+    "project_id": "locationofflinedemo",
+    "storage_bucket": "locationofflinedemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766954487055:android:4d62dcbbdc38dcd9",
+        "android_client_info": {
+          "package_name": "com.noushad.locationofflinedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766954487055-cpjs7hdpro6qkei104v04pur8b1b2b18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.noushad.locationofflinedemo",
+            "certificate_hash": "e181bd5823b856e38d118aaf0ecdd26a52f3177b"
+          }
+        },
+        {
+          "client_id": "766954487055-hd3rm609n7a28kise54rdub8ci69plqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_4Dw_MGqJsonTE3D7QBDFUEJsVJrslos"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766954487055-hd3rm609n7a28kise54rdub8ci69plqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
