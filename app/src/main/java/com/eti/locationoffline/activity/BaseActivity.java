@@ -23,7 +23,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.eti.locationoffline.utils.SharedPrefManager;
-import com.noushad.locationoffline.R;
+import com.eti.locationoffline.R;
 
 public class BaseActivity extends AppCompatActivity {
 
@@ -75,7 +75,6 @@ public class BaseActivity extends AppCompatActivity {
     public void shareMyLocation(final String msg, final String latitude, final String longitude) {
 
         //Message Dialog
-
 
         final AlertDialog.Builder builder;
         builder = new AlertDialog.Builder(mContext);

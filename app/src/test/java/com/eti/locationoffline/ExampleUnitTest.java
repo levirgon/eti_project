@@ -1,4 +1,4 @@
-package com.noushad.locationoffline;
+package com.eti.locationoffline;
 
 import org.junit.Test;
 

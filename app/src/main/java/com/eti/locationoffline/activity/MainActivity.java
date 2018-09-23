@@ -33,7 +33,7 @@ import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.ui.PlacePicker;
 import com.google.android.gms.maps.model.LatLng;
-import com.noushad.locationoffline.R;
+import com.eti.locationoffline.R;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener,
         LocationListener, NetworkStateReceiver.NetworkStateReceiverListener {
