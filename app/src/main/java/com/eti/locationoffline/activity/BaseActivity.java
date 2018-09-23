@@ -1,4 +1,4 @@
-package com.noushad.locationoffline.activity;
+package com.eti.locationoffline.activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -22,8 +22,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.eti.locationoffline.utils.SharedPrefManager;
 import com.noushad.locationoffline.R;
-import com.noushad.locationoffline.utils.SharedPrefManager;
 
 public class BaseActivity extends AppCompatActivity {
 

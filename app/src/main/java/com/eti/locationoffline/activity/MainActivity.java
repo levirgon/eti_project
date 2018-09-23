@@ -1,4 +1,4 @@
-package com.noushad.locationoffline.activity;
+package com.eti.locationoffline.activity;
 
 import android.Manifest;
 import android.app.ProgressDialog;
@@ -26,14 +26,14 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.eti.locationoffline.broadcastreciever.NetworkStateReceiver;
+import com.eti.locationoffline.utils.SharedPrefManager;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.ui.PlacePicker;
 import com.google.android.gms.maps.model.LatLng;
 import com.noushad.locationoffline.R;
-import com.noushad.locationoffline.broadcastreciever.NetworkStateReceiver;
-import com.noushad.locationoffline.utils.SharedPrefManager;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener,
         LocationListener, NetworkStateReceiver.NetworkStateReceiverListener {
@@ -79,8 +79,6 @@ public class MainActivity extends BaseActivity implements View.OnClickListener,
 
 
         if (SharedPrefManager.getInstance(this).isFirstLoad()) {
-            //        showWelcomeDialog();
-
             setLoadingState();
             startLocationProvider();
         }
@@ -379,6 +377,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener,
     private void setEnabledState() {
         isLocationStillUnknown = false;
         mButtonsContainer.setVisibility(View.VISIBLE);
+        mLocationProgressDialog.dismiss();
         if (isFirstLoad) {
             animateButtons();
             isFirstLoad = false;

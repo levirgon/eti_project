@@ -1,4 +1,4 @@
-package com.noushad.locationoffline.utils;
+package com.eti.locationoffline.utils;
 
 import android.Manifest;
 import android.content.Context;
@@ -14,6 +14,7 @@ import android.os.CountDownTimer;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 
+import com.eti.locationoffline.broadcastreciever.NetworkStateReceiver;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnSuccessListener;

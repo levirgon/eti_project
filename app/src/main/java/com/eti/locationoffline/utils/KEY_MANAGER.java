@@ -1,4 +1,4 @@
-package com.noushad.locationoffline.utils;
+package com.eti.locationoffline.utils;
 
 public class KEY_MANAGER {
 

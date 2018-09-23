@@ -1,4 +1,4 @@
-package com.noushad.locationoffline.utils;
+package com.eti.locationoffline.broadcastreciever;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -19,12 +19,10 @@ public class NetworkStateReceiver extends BroadcastReceiver {
         connected = null;
     }
 
-    private static final String TAG = "NetworkStateReceiver";
-
-    @Override
     public void onReceive(Context context, Intent intent) {
         if (intent == null || intent.getExtras() == null)
             return;
+
         ConnectivityManager manager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo ni = manager.getActiveNetworkInfo();
 
@@ -62,9 +60,9 @@ public class NetworkStateReceiver extends BroadcastReceiver {
     }
 
     public interface NetworkStateReceiverListener {
-        void networkAvailable();
+         void networkAvailable();
 
-        void networkUnavailable();
+         void networkUnavailable();
     }
 }
 

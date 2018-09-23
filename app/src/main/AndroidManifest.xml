@@ -32,9 +32,9 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBkhjNp69MYV_BwXmFPTUBKFNSgpn5JJTY" />
+            android:value="AIzaSyCG_wM4ooptvdt10NUwT35cY-gcehIlou8" />
 
-        <activity android:name=".activity.MainActivity">
+        <activity android:name="com.eti.locationoffline.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
